@@ -1,5 +1,6 @@
 return {
   'stevearc/conform.nvim',
+  enable = false,
   opts = {
     markdown = { "mdformat" },
     lua = { "stylua" },
