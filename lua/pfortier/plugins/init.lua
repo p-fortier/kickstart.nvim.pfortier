@@ -2,4 +2,8 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+-- plugins without required separate files
+return {
+  { 'nvim-tree/nvim-web-devicons' },
+  'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
+}
